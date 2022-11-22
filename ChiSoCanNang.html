@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Chỉ số cân nặng</title>
+    <style>
+        .style1
+        {
+            width: 150px; text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Thông số của cơ thể:</h2>
+    <table>
+        <tr>
+            <td><label for="weight">Weight (kg):</label></td>
+            <td><input class="style1" type="text" id="weight" name="weight" placeholder="Nhập thông số cân nặng"></td>
+        </tr>
+        <tr>
+            <td><label for="height">Height (m):</label></td>
+            <td><input class="style1" type="text" id="height" name="height" placeholder="Nhập thông số chiều cao"></td>
+        </tr>
+    </table>
+    <br>
+    <button type="button" name="test" id="test" style="width: 50px;" onclick="doSth()">Test</button>
+    <p id="result">Interpretation:</p>
+    <script src="./ChiSoCanNang.js"></script>
+</body>
+</html>
